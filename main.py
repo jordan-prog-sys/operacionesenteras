@@ -7,3 +7,4 @@ if __name__ == '__main__':
 
     operacion = numeroEntero()
     print(f"MCD de {numero1} {numero2} es {operacion.MDC(numero1, numero2)}")
+    print(f"MCM de {numero1} {numero2} es {operacion.MCM(numero1, numero2)}")

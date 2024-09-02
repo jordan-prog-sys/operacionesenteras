@@ -10,6 +10,12 @@ class GCDCalculator:
 
         return x
 
+    def MCM(self, a, b):
+        #mcd*mcm = a * b
+
+        return a * b / self.MCM(a, b)
+
+
 if __name__ == '__main__':
     operacion = numeroEntero()
     print(f"MCD de {5} {10} es {operacion.MDC(5, 10)}")
